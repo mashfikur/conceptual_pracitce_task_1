@@ -42,3 +42,42 @@
     color: white;
 
 }
+
+.hero-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+
+.heading{
+    font-size: 54px;
+    padding-bottom: 10px;
+}
+
+.hero-left p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 18px;
+}
+
+.btn{
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.btn:hover{
+    color: black;
+}
+.hero-right img{
+    width: 400px;
+}
