@@ -33,7 +33,6 @@
     border: .6px solid  transparent;
     padding: 8px 10px;
     border-radius: 30px;
-    display: block;
 }
 
 .nav-menu ul li:hover{
@@ -54,12 +53,15 @@
 .heading{
     font-size: 54px;
     padding-bottom: 10px;
+    color: white;
+    letter-spacing: -1px;
 }
 
 .hero-left p{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 18px;
+    color: white;
 }
 
 .btn{
@@ -80,4 +82,8 @@
 }
 .hero-right img{
     width: 400px;
+}
+
+.hero-info{
+    background-image: url('../images/background.png'),linear-gradient(15deg,rgb(51, 47, 47),rgb(4, 4, 4));
 }
