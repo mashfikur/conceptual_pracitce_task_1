@@ -87,3 +87,24 @@
 .hero-info{
     background-image: url('../images/background.png'),linear-gradient(15deg,rgb(51, 47, 47),rgb(4, 4, 4));
 }
+
+.about img{
+    width: 300px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.about-right h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.about-right p{
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
