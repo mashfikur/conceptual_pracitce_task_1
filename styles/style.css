@@ -86,6 +86,7 @@
 
 .hero-info{
     background-image: url('../images/background.png'),linear-gradient(15deg,rgb(51, 47, 47),rgb(4, 4, 4));
+    margin-bottom: 10px;
 }
 
 .about img{
@@ -109,7 +110,7 @@
 
 }
 .service-main{
-        background-color: black;
+    background-color: rgb(27, 25, 25);
     background-image: url('../images/background.png');
     padding-bottom: 60px;
 }
@@ -127,7 +128,7 @@
 }
 
 .card{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.184);
     color: white;
     width: 200px;
     align-items: center;
@@ -139,7 +140,7 @@
 }
 
 .card img{
-    width: 150px;
+    width: 100px;
 
 }
 
@@ -159,3 +160,47 @@
     box-shadow: 0px 2px 9px 1px rgb(33, 32, 32);
 
 }
+
+footer{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+}
+
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+    padding-top: 140px;
+    color: white;
+}
+
+.footer-main h3{
+    padding-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.footer-main p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.footer-main li{
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 5px;   
+}
+
+hr{
+    margin-bottom: 40px;
+    opacity: 60%;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    justify-content: center; 
+    padding: 35px 150px;  
+}
+
+
